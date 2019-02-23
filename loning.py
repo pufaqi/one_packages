@@ -3,6 +3,5 @@
 #Author:pufaqi
 #loftybay@163.com
 import connect_database
-data="create table nmbs(id int,username int)"
-#data="select * from user "
+data="select * from mmps"
 connect_database.sqlmysql(data)
