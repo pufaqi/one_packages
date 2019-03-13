@@ -4,7 +4,7 @@
 #loftybay@163.com
 import pymysql
 def sqlmysql(data):
-    db = pymysql.connect("47.75.111.127","root","pufaqi999,.QAZ","pytest")
+    db = pymysql.connect("ip","root","pufaqi999,.QAZ","pytest")
     cursor = db.cursor ()
     sql = """
         %s
